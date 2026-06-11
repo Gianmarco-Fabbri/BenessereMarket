@@ -1,2 +1,19 @@
-# macOS file
+# OS files
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.project
+.classpath
+.settings/
+
+# Runtime / Logs
+*.log

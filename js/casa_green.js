@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const maxPrice = parseFloat(maxPriceInput.value);
 
         try {
-            const response = await fetch('ajax/categorie/api-casa&green.php', { 
+            const response = await fetch('ajax/categorie/api-casa_green.php', { 
                 method: "POST", 
                 headers: {
                     "Content-Type": "application/json"

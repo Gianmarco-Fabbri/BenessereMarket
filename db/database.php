@@ -439,7 +439,7 @@ class DatabaseHelper {
         return $result->fetch_all(MYSQLI_ASSOC);
     }
 
-    /* PRODOTTI CATEGORIA CASA&GREEN */
+    /* PRODOTTI CATEGORIA CASA_GREEN */
     public function getProdottiFromCasaGreen() {
         $stmt = $this->db->prepare("
             SELECT codiceProdotto, nome, prezzo, img, scontoProdotto 
@@ -453,7 +453,7 @@ class DatabaseHelper {
         return $result->fetch_all(MYSQLI_ASSOC);
     }
 
-    /* PRODOTTI CASA&GREEN FILTRATI PER PREZZO */
+    /* PRODOTTI CASA_GREEN FILTRATI PER PREZZO */
     public function getProdottiCasaGreenFiltratiPerPrezzo($minPrice, $maxPrice) {
         $stmt = $this->db->prepare("
             SELECT codiceProdotto, nome, prezzo, img, scontoProdotto 
